@@ -1,0 +1,26 @@
+# Environments and secrets
+.venv/
+.env
+.env.*
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Personal working folders (private decks and their conversions)
+/input/
+/output/
+/output_no_llm/
+/share/
+
+# Editors / OS
+.idea/
+.vscode/
+.DS_Store
